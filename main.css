@@ -477,7 +477,7 @@ a:focus, a:active {
 	background: #fbfbfb;
 }
 .banner-section {
-	background-image: url(http://localhost:8080/Freedom_files/sky.jpg);
+	background-image: url(./sky.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
