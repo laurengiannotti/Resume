@@ -683,95 +683,183 @@ a:focus, a:active {
 	display: table;
 	height: 5px;
 }
-.branding, .graphic, .web, .photography {
+.C_program, .python, .obj_oriented, .version_ctrl, .networking, .unit_testing, .html, .css, .php {
 	background: #5D8CFF;
 }
-.branding {
-	width: 54%;
-	-webkit-animation: branding 3s linear;
-	animation: branding 3s linear;
+.C_program {
+	width: 100%;
+	-webkit-animation: C_program 3s linear;
+	animation: C_program 3s linear;
 }
-.graphic {
-	width: 78%;
-	-webkit-animation: graphic 3s linear;
-	animation: graphic 3s linear;
+.python {
+	width: 100%;
+	-webkit-animation: python 3s linear;
+	animation: python 3s linear;
 }
-.web {
-	width: 92%;
-	-webkit-animation: web 3s linear;
-	animation: web 3s linear;
+.obj_oriented {
+	width: 100%;
+	-webkit-animation: obj_oriented 3s linear;
+	animation: obj_oriented 3s linear;
 }
-.photography {
+.version_ctrl {
+	width: 100%;
+	-webkit-animation: version_ctrl 3s linear;
+	animation: version_ctrl 3s linear;
+}
+.networking {
+	width: 65%;
+	-webkit-animation: networking 3s linear;
+	animation: networking 3s linear;
+}
+
+.unit_testing {
+	width: 80%;
+	-webkit-animation: unit_testing 3s linear;
+	animation: unit_testing 3s linear;
+}
+.html {
 	width: 60%;
-	-webkit-animation: photography 3s linear;
-	animation: photography 3s linear;
+	-webkit-animation: html 3s linear;
+	animation: html 3s linear;
+}
+.css {
+	width: 48%;
+	-webkit-animation: css 3s linear;
+	animation: css 3s linear;
+}
+.php {
+	width: 25%;
+	-webkit-animation: php 3s linear;
+	animation: php 3s linear;
 }
 
 
+
+
 /*-----------------------
-	  	branding 
+	  	C_program Animation
 -------------------------*/ 
-@-webkit-keyframes branding {
+@-webkit-keyframes C_program {
  from {
 width: 0%;
 }
  to {
-width: 54%;
+width: 100%;
 }
 }
- @keyframes branding {
+ @keyframes C_program {
  from {
 width: 0%;
 }
  to {
-width: 54%;
+width: 100%;
 }
 }
 
 /*-----------------------
-	graphic Animation 
+	python Animation 
 -------------------------*/
-@-webkit-keyframes graphic {
+@-webkit-keyframes python {
  from {
 width: 0%;
 }
  to {
-width: 78%;
+width: 100%;
 }
 }
- @keyframes graphic {
+ @keyframes python {
  from {
 width: 0%;
 }
  to {
-width: 78%;
+width: 100%;
 }
 }
 
 /*-----------------------
-	web Animation 
+	obj_oriented Animation 
 -------------------------*/ 
-@-webkit-keyframes web {
+@-webkit-keyframes obj_oriented {
  from {
 width: 0%;
 }
  to {
-width: 92%;
+width: 100%;
 }
 }
- @keyframes web {
+ @keyframes obj_oriented {
  from {
 width: 0%;
 }
  to {
-width: 92%;
+width: 100%;
 }
 }
 
 /*-----------------------
-  photography Animation 
+  version_ctrl Animation 
 -------------------------*/ 
-@-webkit-keyframes photography {
+@-webkit-keyframes version_ctrl {
+ from {
+width: 0%;
+}
+ to {
+width: 100%;
+}
+}
+ @keyframes version_ctrl {
+ from {
+width: 0%;
+}
+ to {
+width: 100%;
+}
+}
+
+/*-----------------------
+  networking Animation 
+-------------------------*/ 
+@-webkit-keyframes networking {
+ from {
+width: 0%;
+}
+ to {
+width: 65%;
+}
+}
+ @keyframes networking {
+ from {
+width: 0%;
+}
+ to {
+width: 65%;
+}
+}
+
+/*-----------------------
+  unit_testing Animation 
+-------------------------*/ 
+@-webkit-keyframes unit_testing {
+ from {
+width: 0%;
+}
+ to {
+width: 80%;
+}
+}
+ @keyframes unit_testing {
+ from {
+width: 0%;
+}
+ to {
+width: 80%;
+}
+}
+
+/*-----------------------
+  html Animation 
+-------------------------*/ 
+@-webkit-keyframes html {
  from {
 width: 0%;
 }
@@ -779,12 +867,52 @@ width: 0%;
 width: 60%;
 }
 }
- @keyframes photography {
+ @keyframes html {
  from {
 width: 0%;
 }
  to {
 width: 60%;
+}
+}
+
+/*-----------------------
+  css Animation 
+-------------------------*/ 
+@-webkit-keyframes css {
+ from {
+width: 0%;
+}
+ to {
+width: 48%;
+}
+}
+ @keyframes css {
+ from {
+width: 0%;
+}
+ to {
+width: 48%;
+}
+}
+
+/*-----------------------
+  php Animation 
+-------------------------*/ 
+@-webkit-keyframes networking {
+ from {
+width: 0%;
+}
+ to {
+width: 65%;
+}
+}
+ @keyframes networking {
+ from {
+width: 0%;
+}
+ to {
+width: 65%;
 }
 }
 /* -------------- about item -----------*/
