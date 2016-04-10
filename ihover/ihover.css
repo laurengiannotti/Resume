@@ -2979,10 +2979,14 @@
 .ih-item.square.effect6 {
   overflow: hidden;
 }
+
+/* Backgroud color for hover */
 .ih-item.square.effect6.colored .info {
   background: #1a4a72;
   background: rgba(26, 74, 114, 0.6);
 }
+
+/* Background color for h3 label on hover */
 .ih-item.square.effect6.colored .info h3 {
   background: rgba(12, 34, 52, 0.6);
 }
