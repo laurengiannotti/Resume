@@ -383,8 +383,9 @@ img.mfp-img {
 /********** MY POPUPS **************/
 .white-popup {
   position: relative;
+  text-align: justify;
   background: #FFF;
-  padding: 20px;
+  padding: 23px;
   width: auto;
   max-width: 500px;
   margin: 20px auto;

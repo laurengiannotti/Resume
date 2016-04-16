@@ -683,7 +683,7 @@ a:focus, a:active {
 	display: table;
 	height: 5px;
 }
-.C_program, .python, .obj_oriented, .version_ctrl, .networking, .unit_testing, .html, .css, .php {
+.C_program, .python, .obj_oriented, .version_ctrl, .networking, .unit_testing, .html, .css, .php, .linux {
 	background: #5D8CFF;
 }
 .C_program {
@@ -731,6 +731,12 @@ a:focus, a:active {
 	width: 25%;
 	-webkit-animation: php 3s linear;
 	animation: php 3s linear;
+}
+
+.linux {
+	width: 100%;
+	-webkit-animation: linux 3s linear;
+	animation: linux 3s linear;
 }
 
 
@@ -913,6 +919,26 @@ width: 0%;
 }
  to {
 width: 65%;
+}
+}
+
+/*-----------------------
+Linux Animation
+-------------------------*/ 
+@-webkit-keyframes linux {
+ from {
+width: 0%;
+}
+ to {
+width: 100%;
+}
+}
+ @keyframes linux {
+ from {
+width: 0%;
+}
+ to {
+width: 100%;
 }
 }
 /* -------------- about item -----------*/
