@@ -683,7 +683,8 @@ a:focus, a:active {
 	display: table;
 	height: 5px;
 }
-.C_program, .python, .obj_oriented, .version_ctrl, .networking, .unit_testing, .html, .css, .php, .linux {
+.C_program, .python, .java, .obj_oriented, .version_ctrl, .networking, .unit_testing, .html, .css, .php, .linux, .wireshark,
+.metasploit, .nmap, .django, .mysql, .vhdl, .arduino{
 	background: #5D8CFF;
 }
 .C_program {
@@ -695,6 +696,11 @@ a:focus, a:active {
 	width: 100%;
 	-webkit-animation: python 3s linear;
 	animation: python 3s linear;
+}
+.java {
+	width: 100%;
+	-webkit-animation: java 3s linear;
+	animation: java 3s linear;
 }
 .obj_oriented {
 	width: 100%;
@@ -739,7 +745,47 @@ a:focus, a:active {
 	animation: linux 3s linear;
 }
 
+.wireshark {
+	width: 70%;
+	-webkit-animation: wireshark 3s linear;
+	animation: wireshark 3s linear;
+}
 
+.metasploit {
+	width: 50%;
+	-webkit-animation: metasploit 3s linear;
+	animation: metasploit 3s linear;
+}
+
+.nmap {
+	width: 40%;
+	-webkit-animation: nmap 3s linear;
+	animation: nmap 3s linear;
+}
+
+.django {
+	width: 30%;
+	-webkit-animation: django 3s linear;
+	animation: django 3s linear;
+}
+
+.mysql {
+	width: 85%;
+	-webkit-animation: mysql 3s linear;
+	animation: mysql 3s linear;
+}
+
+.vhdl {
+	width: 75%;
+	-webkit-animation: vhdl 3s linear;
+	animation: vhdl 3s linear;
+}
+
+.arduino {
+	width: 50%;
+	-webkit-animation: arduino 3s linear;
+	animation: arduino 3s linear;
+}
 
 
 /*-----------------------
@@ -781,7 +827,25 @@ width: 0%;
 width: 100%;
 }
 }
-
+/*-----------------------
+java Animation 
+-------------------------*/ 
+@-webkit-keyframes java {
+ from {
+width: 0%;
+}
+ to {
+width: 100%;
+}
+}
+ @keyframes java {
+ from {
+width: 0%;
+}
+ to {
+width: 100%;
+}
+}
 /*-----------------------
 	obj_oriented Animation 
 -------------------------*/ 
@@ -905,20 +969,20 @@ width: 48%;
 /*-----------------------
   php Animation 
 -------------------------*/ 
-@-webkit-keyframes networking {
+@-webkit-keyframes php {
  from {
 width: 0%;
 }
  to {
-width: 65%;
+width: 25%;
 }
 }
- @keyframes networking {
+ @keyframes php {
  from {
 width: 0%;
 }
  to {
-width: 65%;
+width: 25%;
 }
 }
 
@@ -941,6 +1005,147 @@ width: 0%;
 width: 100%;
 }
 }
+
+/*-----------------------
+Wireshark Animation
+-------------------------*/ 
+@-webkit-keyframes wireshark {
+ from {
+width: 0%;
+}
+ to {
+width: 70%;
+}
+}
+ @keyframes wireshark {
+ from {
+width: 0%;
+}
+ to {
+width: 70%;
+}
+}
+
+/*-----------------------
+Metasploit Animation
+-------------------------*/ 
+@-webkit-keyframes metasploit {
+ from {
+width: 0%;
+}
+ to {
+width: 50%;
+}
+}
+ @keyframes metasploit {
+ from {
+width: 0%;
+}
+ to {
+width: 50%;
+}
+}
+
+/*-----------------------
+Nmap Animation
+-------------------------*/ 
+@-webkit-keyframes nmap {
+ from {
+width: 0%;
+}
+ to {
+width: 40%;
+}
+}
+ @keyframes nmap {
+ from {
+width: 0%;
+}
+ to {
+width: 40%;
+}
+}
+
+/*-----------------------
+Django Animation
+-------------------------*/ 
+@-webkit-keyframes django {
+ from {
+width: 0%;
+}
+ to {
+width: 30%;
+}
+}
+ @keyframes django {
+ from {
+width: 0%;
+}
+ to {
+width: 30%;
+}
+}
+
+/*-----------------------
+MySQL Animation
+-------------------------*/ 
+@-webkit-keyframes mysql {
+ from {
+width: 0%;
+}
+ to {
+width: 85%;
+}
+}
+ @keyframes mysql {
+ from {
+width: 0%;
+}
+ to {
+width: 85%;
+}
+}
+
+/*-----------------------
+VHDL Animation
+-------------------------*/ 
+@-webkit-keyframes vhdl {
+ from {
+width: 0%;
+}
+ to {
+width: 75%;
+}
+}
+ @keyframes vhdl {
+ from {
+width: 0%;
+}
+ to {
+width: 75%;
+}
+}
+
+/*-----------------------
+Arduino Animation
+-------------------------*/ 
+@-webkit-keyframes arduino {
+ from {
+width: 0%;
+}
+ to {
+width: 50%;
+}
+}
+ @keyframes arduino {
+ from {
+width: 0%;
+}
+ to {
+width: 50%;
+}
+}
+
 /* -------------- about item -----------*/
 .aboutItem {
 	width: 50%;
