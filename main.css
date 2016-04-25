@@ -1395,6 +1395,12 @@ nav a {
 .filter {
 	margin-bottom: 30px;
 }
+
+/* mix it up filter animation styles */
+.courses .mix-target {
+	display: none;
+}
+
 /*----------- Team --------------- */
 .team-item {
 	width: 100%;

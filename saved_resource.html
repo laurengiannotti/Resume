@@ -27,6 +27,7 @@
 <script src="./jquery.scrollto.js"></script>
 <script src="./owl.carousel.min.js"></script>
 <script src="./magnific-popup/jquery.magnific-popup.js"></script>
+<script src="./jquery.mixitup.min.js"></script>
 <script type="text/javascript">
 	// makes sure the whole site is loaded
 	jQuery(window).load(function() {
@@ -288,13 +289,18 @@
     </div>
     <div class="row">
       <div class="portfolio-button wow fadeInDown" data-wow-duration="500" data-wow-delay="100" style="visibility: hidden; animation-name: none;">
+	     <button class="filter-btn" data-filter="all">All</button>
+		 <button class="filter-btn" data-filter=".employment">Employment</button>
+         <button class="filter-btn" data-filter=".leadership">Leadership</button>
+	  <!--
         <button class="filter-button active" data-filter="all">All</button>
         <button class="filter-button" data-filter="work">Work</button>
-        <button class="filter-button" data-filter="leadership">Leadership</button>
+        <button class="filter-button" data-filter="leadership">Leadership</button>-->
       </div>
     </div>
     <div class="row wow fadeInDown" data-wow-duration="500" data-wow-delay="100" style="visibility: hidden; animation-name: none;">
-      <div class="col-md-3 col-sm-6 filter work">
+	<div class="courses" id="mix-wrapper">
+      <div class="col-md-3 col-sm-6 mix-target employment">
         <div class="each-item">
               <div class="ih-item square colored effect6 top_to_bottom"><a href="#parsons" data-effect="mfp-zoom-in" class="open-popup-link">
                   <img src="parsons.png" alt="img">
@@ -310,7 +316,7 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6 filter work">
+      <div class="col-md-3 col-sm-6 mix-target employment">
         <div class="each-item">
               <div class="ih-item square colored effect6 top_to_bottom"><a href="#lab-manager" data-effect="mfp-zoom-in" class="open-popup-link">
                   <img src="kgcoe.png" alt="img">
@@ -326,7 +332,7 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6 filter work">
+      <div class="col-md-3 col-sm-6 mix-target employment">
         <div class="each-item">
               <div class="ih-item square colored effect6 top_to_bottom"><a href="#net-ip" data-effect="mfp-zoom-in" class="open-popup-link">
                   <img src="map.png" alt="img">
@@ -342,7 +348,8 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6 filter work">
+
+      <div class="col-md-3 col-sm-6 mix-target employment">
         <div class="each-item"> 
               <div class="ih-item square colored effect6 top_to_bottom"><a href="#bnl" data-effect="mfp-zoom-in" class="open-popup-link">
                   <img src="bnl.png" alt="img">
@@ -358,7 +365,7 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6 filter work leadership">
+      <div class="col-md-3 col-sm-6 filter mix-target employment leadership">
         <div class="each-item"> 
               <div class="ih-item square colored effect6 top_to_bottom"><a href="#ce" data-effect="mfp-zoom-in" class="open-popup-link">
                   <img src="ce.png" alt="img">
@@ -372,9 +379,9 @@
                   <p>Teaching other students is truly a rewarding experience because I have the opportunity to share my knowledge in one of my favorite areas of computer engineering. I am a teaching assistant for Digital Systems Design, which introduces students to the concepts of conditional logic and digital circuitry. I reinforce classroom concepts in the labs by reviewing the theory and assisting with designing circuits to demonstrate the material. I help the students troubleshoot their circuits, while encouraging them to think critically and develop strong problem solving skills. The constructive feedback that I provide on students’ lab reports fosters their progressive improvement.</p>
               </div>
         </div>
-       </div>
-        
-      <div class="col-md-3 col-sm-6 filter leadership">
+       </div>   
+	   
+      <div class="col-md-3 col-sm-6 mix-target leadership">
         <div class="each-item"> 
               <div class="ih-item square colored effect6 top_to_bottom"><a href="#we" data-effect="mfp-zoom-in" class="open-popup-link">
                   <img src="we@rit.png" alt="img">
@@ -390,7 +397,7 @@
         </div>
       </div>
 
-      <div class="col-md-3 col-sm-6 filter leadership">
+      <div class="col-md-3 col-sm-6 mix-target leadership">
         <div class="each-item"> 
               <div class="ih-item square colored effect6 top_to_bottom"><a href="#formula" data-effect="mfp-zoom-in" class="open-popup-link">
                   <img src="formula.png" alt="img">
@@ -405,9 +412,8 @@
               </div>
         </div>
       </div>       
-
-        
-      <div class="col-md-3 col-sm-6 filter leadership">
+      
+      <div class="col-md-3 col-sm-6 mix-target leadership">
           <div class="each-item"> 
               <div class="ih-item square colored effect6 top_to_bottom"><a href="#orientation" data-effect="mfp-zoom-in" class="open-popup-link">
                   <img src="orientation.png" alt="img">
@@ -422,10 +428,9 @@
               </div>
           </div>
       </div>
-      </div>
-
-      
-      
+      </div> <!-- end courses (id=mix-wrapper) -->
+	  </div><!-- end row wow fadeInDown -->
+    
       <script>
           $('.open-popup-link').magnificPopup({
           type:'inline',
@@ -443,7 +448,23 @@
 
 </section>
 
-    
+<script>
+$('#mix-wrapper').mixItUp({
+	animation: {},
+    selectors: {
+    target: '.mix-target',
+    filter: '.filter-btn',
+
+  },
+  callbacks: {
+    onMixEnd: function(state){
+    console.log(state)
+    }
+  }
+});
+</script>
+
+
 
 <section class="grey-section" id="team">
   <div class="container">
