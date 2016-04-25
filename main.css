@@ -1381,7 +1381,7 @@ nav a {
 	display: table;
 	margin-bottom: 70px;
 }
-.portfolio-button .filter-button {
+.portfolio-button .filter-btn {
 	background: none;
 	color: #8d8d8d;
 	margin: 0 20px;
@@ -1389,7 +1389,7 @@ nav a {
 	font-weight: 300;
 	outline: none;
 }
-.portfolio-button .filter-button.active {
+.portfolio-button .filter-btn.active {
 	color: #5D8CFF;
 }
 .filter {
