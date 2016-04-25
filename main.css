@@ -441,10 +441,22 @@ a:focus, a:active {
 	color: #fff;
 	background-position: left bottom;
 }
+
+#bootstrap-overrides .navbar-default .navbar-brand {
+
+	color: #5D8CFF;
+	font-size: 3em;
+	padding: 15px 0px 0px 0px;
+	font-family: 'Oleo Script', Helvetica, sans-serif;
+	text-transform: none;
+
+}
+*
 /* ----- Nav -----*/
 .navbar-default {
 	background-color: #000;
 	border-color: transparent;
+
 }
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
