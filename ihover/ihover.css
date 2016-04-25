@@ -3025,10 +3025,10 @@
 }
 .ih-item.square.effect6 .info p {
   font-style: italic;
-  font-size: 12px;
+  font-size: 15px;
   position: relative;
-  color: #bbb;
-  padding: 20px 20px 20px;
+  color: #fff;
+  padding: 70px 20px 0px 20px;
   text-align: center;
   -webkit-transition: all 0.35s 0.1s linear;
   -moz-transition: all 0.35s 0.1s linear;
