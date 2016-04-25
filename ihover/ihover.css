@@ -2983,12 +2983,13 @@
 /* Backgroud color for hover */
 .ih-item.square.effect6.colored .info {
   background: #1a4a72;
-  background: rgba(93, 140, 255, 0.6);
+  background: rgba(93, 140, 210, 0.7);
+  border-radius: 10px;
 }
 
 /* Background color for h3 label on hover */
 .ih-item.square.effect6.colored .info h3 {
-  background: rgba(93, 140, 210, 0.6);
+  background: rgba(93, 140, 210, 0.0);
 }
 .ih-item.square.effect6 .img {
   -webkit-transition: all 0.35s ease-in-out;
@@ -3016,7 +3017,8 @@
   font-size: 17px;
   padding: 10px;
   background: #111111;
-  margin: 50px 0 0 0;
+  /* Spacing for the info bar */
+  margin: 20px 0 0 0;
   -webkit-transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out;
