@@ -442,27 +442,27 @@
           },
           midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
           });
-      </script>
+
+		$('#mix-wrapper').mixItUp({
+			animation: {},
+			selectors: {
+			target: '.mix-target',
+			filter: '.filter-btn',
+
+		  },
+		  callbacks: {
+			onMixEnd: function(state){
+			console.log(state)
+			}
+		  }
+		});
+	  </script>
 
 </div> 
 
 </section>
 
-<script>
-$('#mix-wrapper').mixItUp({
-	animation: {},
-    selectors: {
-    target: '.mix-target',
-    filter: '.filter-btn',
 
-  },
-  callbacks: {
-    onMixEnd: function(state){
-    console.log(state)
-    }
-  }
-});
-</script>
 
 
 
