@@ -416,7 +416,7 @@ a:focus, a:active {
 	-ms-transition: all 300ms ease-in-out 0s;
 	-o-transition: all 300ms ease-in-out 0s;
 }
-.btn-hero {
+.btn-success {
 	background: linear-gradient(left, #5D8CFF 50%, #03c6d7 50%) repeat scroll right bottom/200% 100% transparent;
 	background: linear-gradient(to right, #03c6d7 50%, #5D8CFF 50%) repeat scroll right bottom/200% 100% transparent;
 	-webkit-transition: background 350ms ease-in-out;
@@ -437,7 +437,7 @@ a:focus, a:active {
 	-webkit-transition: ease 0.35s all;
 	transition: ease 0.35s all;
 }
-.btn-hero:hover, .btn-hero:focus {
+.btn-success:hover, .btn-success:focus {
 	color: #fff;
 	background-position: left bottom;
 }
@@ -449,6 +449,7 @@ a:focus, a:active {
 	padding: 15px 0px 0px 0px;
 	font-family: 'Oleo Script', Helvetica, sans-serif;
 	text-transform: none;
+
 
 }
 *
