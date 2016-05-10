@@ -384,9 +384,27 @@ img.mfp-img {
 .white-popup {
   position: relative;
   text-align: justify;
-  background: #FFF;
+  background: #F9FDFF; 
   padding: 23px;
   width: auto;
   max-width: 500px;
   margin: 20px auto;
+  border-radius: 5px;
+}
+
+.white-popup {
+}
+
+.white-popup h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	color: #808080;
+}
+
+.modal-info {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	color: #808080;
 }
