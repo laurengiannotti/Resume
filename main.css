@@ -597,15 +597,17 @@ a:focus, a:active {
 .section-header {
 	margin: 0 auto;
 	display: table;
-	margin-bottom: 75px;
+	margin-bottom: 55px;
 }
 .section-header h3 {
-	font-size: 40px;
+	letter-spacing: 5px;
+	font-size: 50px;
 	margin-bottom: 10px;
 	text-align: center;
 	font-weight: 300;
 	position: relative;
 }
+/*
 .section-header h3:before {
 	background: url(http://codytheme.com/freedom/img/header.png);
 	height: 50px;
@@ -629,6 +631,7 @@ a:focus, a:active {
 	-o-transform: rotate(180deg);
 -webkit-
 }
+*/
 .section-header h3 strong {
 	font-weight: 600;
 }
