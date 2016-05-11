@@ -390,9 +390,7 @@ img.mfp-img {
   max-width: 500px;
   margin: 20px auto;
   border-radius: 5px;
-}
-
-.white-popup {
+  overflow: auto;
 }
 
 .white-popup h3 {
@@ -402,6 +400,9 @@ img.mfp-img {
 	color: #808080;
 }
 
+.white-popup img {
+    border-radius: 2px;
+}
 .modal-info {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
