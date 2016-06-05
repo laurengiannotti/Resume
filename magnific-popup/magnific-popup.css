@@ -400,6 +400,13 @@ img.mfp-img {
 	color: #333333;
 }
 
+.white-popup h4 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	font-weight: 400;
+	color: #333333;
+}
+
 .white-popup img {
     border-radius: 2px;
 }
