@@ -786,7 +786,7 @@ a:focus, a:active {
 }
 
 .mysql {
-	width: 85%;
+	width: 50%;
 	-webkit-animation: mysql 3s linear;
 	animation: mysql 3s linear;
 }
@@ -1110,7 +1110,7 @@ MySQL Animation
 width: 0%;
 }
  to {
-width: 85%;
+width: 50%;
 }
 }
  @keyframes mysql {
@@ -1118,7 +1118,7 @@ width: 85%;
 width: 0%;
 }
  to {
-width: 85%;
+width: 50%;
 }
 }
 
