@@ -740,7 +740,7 @@ a:focus, a:active {
 	animation: unit_testing 3s linear;
 }
 .html {
-	width: 60%;
+	width: 73%;
 	-webkit-animation: html 3s linear;
 	animation: html 3s linear;
 }
@@ -950,7 +950,7 @@ width: 80%;
 width: 0%;
 }
  to {
-width: 60%;
+width: 73%;
 }
 }
  @keyframes html {
@@ -958,7 +958,7 @@ width: 60%;
 width: 0%;
 }
  to {
-width: 60%;
+width: 73%;
 }
 }
 
